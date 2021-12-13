@@ -1,0 +1,37 @@
+name: PlayerTracker
+version: '${project.version}'
+main: com.github.fwanki.playertracker.PlayerTracker
+api-version: 1.17
+authors: [ Fwanki ]
+description: A Manhunt-like plugin for Minecraft written in Java
+commands:
+  track:
+    description: It tracks a specified player
+    usage: /<command> [Player]
+  addhunter:
+    description: Adds players to internal team of Hunters
+    usage: /<command> [Player] [Player]...
+  removehunter:
+    description: Removes players from team "hunters".
+    usage: /<command> [Player] [Player]...
+  helptracker:
+    description: Gives advice on how to execute commands
+    usage: /<command>
+  start:
+    description: Starts the game
+    usage: /<command>
+  removespeedrunner:
+    description: Makes Speedrunner null (no speedrunner)
+    usage: /<command>
+  addspeedrunner:
+    description: Adds players to internal team of Speedrunners
+    usage: /<command> [Player] [Player]...
+  setup:
+    description: Creates hunters and speedrunners team & makes keepInventory true; first command to run
+    usage: /<command>
+  listhunters:
+    description: Lists players in team Hunters
+    usage: /<command>
+  listspeedrunners:
+    description: Lists players in team Speedrunners
+    usage: /<command>
