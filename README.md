@@ -1,3 +1,3 @@
 # Manhunt
 
-PaperMC plugin based on PlayerTracker
+PaperMC plugin bringing a Dream Manhunt-like thingy
